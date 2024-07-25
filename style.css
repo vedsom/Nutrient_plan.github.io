@@ -1,0 +1,1120 @@
+
+.container-fluid img{
+  padding-left: 50px;
+  height: 50px;
+}
+.navbar-nav a{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  
+}
+.navbar-nav{
+  margin-left: auto;
+  padding-right: 30px;
+}
+.navbar-nav button{
+  font-weight: 500;
+  border-radius: 15px;
+}
+/* Initially hide the My Account div */
+.account-nav {
+  display:contents;
+}
+
+/* Add styles for the account image */
+.account-nav .account-image img{
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+  margin-right: 10px;/* Adjust the spacing between the text and image */
+}
+.sign-in, .sign-up {
+  display: none;
+}
+
+.img-cont h5{
+  color: #80C58C;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+}
+.img-cont h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 144px;
+}
+.Img-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.Img-1 img {
+  width: 100%;
+ /* Set a maximum width for the image */
+  height: auto;
+}
+
+.img-cont {
+  position: absolute;
+  top: 50%;
+  left: 5%; /* Adjust the left value to position the text as needed */
+  transform: translateY(-50%);
+  color: white; /* Set text color to white */
+  max-width: 90%; /* Set a maximum width for the text container */
+}
+.img-cont h5,.img-cont h1,.img-cont p {
+            margin: 0;
+        }
+.order-btn{
+  background-color: #80C58C;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+}
+/*plans section*/
+#plans{
+  padding:4% 15% ;
+}
+.plan-head{
+  text-align: center;
+  font-weight: 700;
+}
+.plan-head span{
+  color: #80C58C;
+}
+.card-body h5{
+  font-weight: 700;
+}
+.card-body h6{
+  text-decoration: line-through;
+  color: grey;
+}
+.card-body h3{
+  color: #68A17E;
+}
+.card-body span{
+  color: #80C58C;
+  background-color: #FDF3C0;
+  font-size: 10px;
+  padding: 2px 1px 1px 1px;
+}
+.custom-card{
+  border: 2px solid #80C58C;
+}
+.select-card{
+  background-color: #75A373;
+}
+/*Contact section*/
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 109, 90, 0.8); /* Green color with 50% opacity */
+}
+.contact-details {
+  position: absolute;
+  top: 50%;
+  left: 12%; /* Adjust the left value to position the text as needed */
+  transform: translateY(-50%);
+  color: white; /* Set text color to white */
+  max-width: 100%;
+  box-sizing: border-box; 
+  
+}
+.part-1 h3 {
+  font-size: 19px;
+  text-align: left; /* Align content to the left */
+  margin-right: 130px; /* Increase the right margin to create a gap from part-2 */
+}
+
+.part-3 h5 {
+  font-size: 13px;
+  text-align: left; /* Align content to the right */
+  margin-left: 130px; /* Increase the left margin to create a gap from part-2 */
+}
+
+.part-3 h3 {
+  font-size: 19px;
+  text-align: left; /* Align content to the right */
+  margin-left: 130px; /* Increase the left margin to create a gap from part-2 */
+}
+.part-2 h5,h6{
+  font-size: 13px;
+}
+
+.part-2 i{
+  color: #FDF3C0;
+}
+.part-2 img{
+  height: 120px;
+  width: 120px;
+  
+}
+.col-4.part-2{
+  text-align: center;
+}
+.col-4.part-2 img {
+  display: block;
+  margin: 0 auto; /* Center-align the image */
+}
+.part-3 h5{
+  font-size: 13px;
+}
+.part-3 h3{
+  font-size: 19px;
+}
+.part-1 h3{
+  font-size: 19px;
+}
+
+/* cards section*/
+#food-types{
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.cards{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+}
+.cards img{
+  width: 100%;
+  height: auto;
+}
+.food-cont{
+  position: absolute;
+  top: 90%;
+  left: 5%; /* Adjust the left value to position the text as needed */
+  transform: translateY(-50%);
+  color: white; /* Set text color to white */
+  max-width: 90%; /* Set a maximum width for the text container */
+}
+.food-cont p{
+  font-size: 14px;
+}
+/* features section*/
+#features{
+  padding-top: 10px;
+}
+#features {
+  position: relative;
+}
+
+#features img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10px; /* Add padding to the container */
+  position: relative;
+  top: -80px;
+}
+
+.col-2 {
+  width: calc(20% - 16px); /* Adjust the width for 4 columns with spacing in between */
+  margin-bottom: 20px; /* Adjust the margin for spacing between columns */
+  box-sizing: border-box;
+}
+
+.box {
+  height: 93%;
+  background-color: #FDF3C0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 10px; /* Adjust the margin for spacing between boxes */
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-content {
+  color: #333; /* Text color */
+  font-weight: 500;
+}
+
+.box-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*testimonial section*/
+.review-box {
+  position: relative;
+  background-color: #FDF3C0;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+  border-radius: 8%;
+}
+
+.quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #333;
+}
+.quote img{
+  height: 25px;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #FF9E2A;
+}
+
+.content {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+.testi-name{
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.testi-slide img{
+  display: block;
+  margin: 0 auto;
+  height: 14px;
+  
+}
+#testimonials{
+  padding-bottom: 4%;
+}
+.random-image {
+  position: absolute;
+  border: 1px solid #ccc;
+}
+.img-1{
+  padding-left: 50%;
+}
+.img-2{
+  float: right;
+}
+.img-3{
+  padding-left: 40px;
+}
+.img-4{
+  float: right;
+  padding-right: 10px;
+}
+.img-5{
+  padding-left: 95px;
+}
+.img-6{
+  padding-left: 213px;
+}
+.img-7{
+  padding-left: 10%;
+}
+
+       /* Menu Page CSS*/
+
+#menu{
+  padding: 4% 1%;
+}
+.menu-left h4{
+  position: absolute;
+  top: 0;
+  left: 6%;
+  background-color: #fff; /* Set the background color as needed */
+  padding: 10px; /* Adjust padding as needed */
+  margin: 0;
+  z-index: 1;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 20;
+}
+.menu-left span{
+  color:#80C58C;
+}
+.menu-left img{
+  display: block;
+  width: 600px;
+  margin-top: 10px;
+  height: 530px;
+}
+
+.menu-left {
+  position: relative;
+}
+
+.menu-right h1{
+  font-weight:bolder;
+  font-family: 'Poppins', sans-serif;
+  counter-reset: #212426;
+  font-size: 20px;
+}
+.menu-right h4{
+  color: #70B943;
+}
+.menu-right h5{
+  font-family: 'Poppins', sans-serif;
+  color: #212426;
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu-right ul{
+  font-size: 12px;
+  font-family: 'Poppins',sans-serif;
+}
+.menu-right p span{
+  background-color: rgba(128, 197, 140, 0.5); /* Adjust the alpha value for transparency */
+  padding: 5px;
+  border-radius: 4px;
+}
+.number-input-container {
+  margin-top: 10px; /* Adjust the top margin as needed */
+  height: 50px; /* Adjust the height as needed */
+  width: 120px;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #80C58C; /* Green color for the border */
+  border-radius: 5px;
+}
+
+.number-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.number-btn {
+  height: 100%;
+  width: 30px; /* Adjust the width of buttons as needed */
+  padding: 0;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff; /* White background for the buttons */
+  color: #333333; /* Blue color for the text on buttons */
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.menu-right {
+  margin-top: 4%;
+}
+
+/* Add the following CSS to ensure proper spacing between elements */
+.menu-right h1,
+.menu-right p,
+.menu-right h4,
+.menu-right h5,
+.menu-right ul,
+.menu-right span {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.nav-tabs .nav-link {
+  border: none; /* Remove the default border */
+  padding-bottom: 5px; /* Add some padding to create space for the underline */
+}
+
+.nav-tabs .nav-link.active {
+  color: #80C58C; /* Change the color of the active tab */
+  border-bottom: 2px solid #80C58C; /* Add a green underline for the active tab */
+}
+
+.navbar-nav {
+  border-bottom: none; /* Remove the default horizontal line below all tabs */
+}
+
+.navbar {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow with some transparency */
+}
+
+/* Clubs CSS*/
+#clubs{
+  padding: 4% 4%;
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.card-style a{
+  text-decoration: none;
+}
+.card-style .card h5{
+  color: black;
+}
+.card h5,p{
+  font-family: 'Poppins', sans-serif;
+}
+.card-style .card p{
+  font-size: 11px;
+  color: #6F6F6F;
+}
+.card {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow with some transparency */
+}
+                                /* Login-css*/
+
+#login{
+  padding: 10% 4%;
+}
+.login-right h3 span{
+  color: #70B943;
+}
+.descrip{
+  color: #6F6F6F;
+}
+.register-line{
+  color: #333333;
+  text-align: center;
+}
+.register-line a{
+  text-decoration: none;
+}
+.login-details input{
+  border-radius: 100px;
+}
+.login-details button{
+  width: 100%;
+  border-radius: 100px;
+  background-color: #70B943;
+}
+.login-details .btn:hover{
+  background-color: #75A373;
+  color: white;
+
+}
+.login-details button a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.input-container {
+  position: relative;
+  display: flex;
+}
+
+.input-icon {
+  position: absolute;
+  left: 16px; /* Adjust the distance from the left */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 32px;
+  width: 32px;
+}
+
+.form-control-lg {
+  padding-left: 40px; /* Adjust the padding to make space for the icon */
+}
+.input-container input::placeholder {
+  text-align: left;
+  color: #6F6F6F;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.login-right{
+  margin-top: 5%;
+}
+                     /*Register Page*/
+.register-right h3 span{
+  color: #70B943;
+}
+.form-check-label span{
+  color: #70B943;
+}
+.form-check-label{
+  color: #6F6F6F;
+}
+    /*plan page css*/
+#plan{
+  padding: 4% 4%;
+}
+.plan-left h4{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  background-color: #fff; /* Set the background color as needed */
+  padding: 10px;
+  padding-bottom: 20px; /* Adjust padding as needed */
+  margin: 0;
+  z-index: 1;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 20;
+}
+.plan-left span{
+  color:#80C58C;
+}
+.plan-left {
+  position: relative;
+}
+.plan-left img{
+  margin-top: 60px;
+  width: 80%;
+  height: auto;
+}
+.plan-left .plan-name{
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+.plan-left p{
+  font-family: 'Poppins',sans-serif;
+  color: #6F6F6F;
+  font-size: 13px;
+}
+.plan-left .btn{
+  width: 80%;
+  background-color: #70B943;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+.green-circle{
+  display: inline-block;
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    border-radius: 50%;
+    background-color: #70B943;
+    color: white; /* Optional: Set text color to white */
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+.plan-right{
+  margin-top: 5%;
+}
+.days-plan{
+  background-color: #f4f4f4;
+  margin-bottom: 12px;
+  padding: 4px;
+}
+.days-plan h4,p{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 7px;
+  
+}
+.days-plan p{
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.days-plan h4{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+/*Order page CSS*/
+#order{
+  
+  padding: 0% 4%;
+  margin-bottom: 2%;
+}
+.order-left h4{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  background-color: #fff; /* Set the background color as needed */
+  padding: 10px;
+  padding-bottom: 20px; /* Adjust padding as needed */
+  margin: 0;
+  z-index: 1;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 20;
+}
+.order-left span{
+  color:#80C58C;
+}
+.order-left {
+  position: relative;
+}
+.order-left img{
+  margin-top: 60px;
+  width: 80%;
+  height: auto;
+}
+.order-left .order-name{
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+.order-left p{
+  font-family: 'Poppins',sans-serif;
+  color: #6F6F6F;
+  font-size: 13px;
+}
+.input-date-container input::placeholder {
+  margin: 0;
+  padding: 0;
+  color: #606063;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+  text-align: left;
+ 
+}
+.input-date-container {
+  position: relative;
+  display: flex;
+  width: 90%;
+  
+}
+
+.input-date-container .input-icon {
+  position: absolute;
+  left: 88%; /* Adjust the distance from the left */
+  top: 70%;
+  transform: translateY(-80%);
+ 
+}
+.input-date-container img{
+  height: 29px;
+}
+.offer-container{
+  border: 2px  dashed #e3e3e3;
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 90%;
+  border-radius: 15.24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-container img{
+  height: 22px;
+}
+.offer-container h6{
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
+}
+.offer-container p{
+  font-size: 13px;
+  color: #6F6F6F;
+}
+.apply-opt{
+  color: #70B943;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.content-wrapper {
+  flex-grow: 1;
+}
+.bill {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 90%;
+  border-radius: 15.76px;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-family: 'Poppins',sans-serif;
+  color: #6F6F6F;
+}
+
+.price {
+  text-align: right;
+  font-family: 'Poppins',sans-serif;
+}
+.order-right{
+  margin-top: 5%;
+}
+.order-right h5{
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+}
+.order-right .btn{
+  width: 90%;
+  background-color: #70B943;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+/*user-prifile css*/
+#user-profile{
+  padding: 4% 4%;
+}
+.user-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.profile-pic img{
+  height: 150px;
+  width: 150px;
+}
+.user-info{
+  flex-grow: 1;
+  padding-left: 15px;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.user-info h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+.user-info p{
+  color: #6F6F6F;
+  font-size: 22px;
+}
+.user-profile-nav{
+  height: 900px;
+  width: 230px;
+  background-color: #f8f8f8;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.user-profile-nav .nav-link {
+  display: flex;
+  align-items:center;
+}
+
+.user-profile-nav .nav-icon {
+  height: 40px;/* Maintain the aspect ratio */
+  width: 40px; /* Adjust the width of the icon as needed */ 
+  margin-right: 10px; /* Adjust the spacing between the icon and the text as needed */
+}
+.order-list{
+  padding-top: 40px;
+}
+.order-details{
+  width: 840px;
+  height: 50px;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+.order-item-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.order-image-container  img {
+  width: 220px; /* Adjust the width of the image as needed */
+  height:200px; /* Maintain the aspect ratio */
+   /* Adjust the spacing between the image and text as needed */
+}
+.order-details-container{
+  flex-grow: 1;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 16px;
+}
+.order-details-container h5{
+  font-weight: bold;
+}
+.order-details-container p{
+  line-height: 8px;
+  color: #6F6F6F;
+}
+.order-delivery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.order-delivery-status-failed{
+  text-align: right;
+  background-color: #FFF0F1;
+  border-radius: 30.48px;
+  height: 40px;
+  padding-right: 15px;
+  padding-top: 5px;
+  line-height: 46px; /* Set line-height equal to the container height */
+  color: #FF424E;
+  
+}
+.time-left{
+  height: 18px;
+  padding-right: 7px;
+}
+.order-delivery-status-success{
+  text-align: right;
+  background-color: #EFFFF4;
+  border-radius: 30.48px;
+  height: 40px;
+  width: 120px;
+  color: #00AB56;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-right: 20px; /* Adjust as needed */
+}
+
+.subs-logo{
+  height: 37px;
+  margin-top: 150px;
+  
+}
+/*transaction page CSS*/
+.transaction-list{
+  padding-top: 40px;
+}
+.transaction-details{
+  width: 840px;
+  height: 50px;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+  box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.05), 
+                2px 0 2px rgba(0, 0, 0, 0.05), 
+                -2px 0 2px rgba(0, 0, 0, 0.05), 
+                0 6px 8px rgba(0, 0, 0, 0.07);
+  font-family: 'Poppins', sans-serif;
+}
+
+.transaction-details-container{
+  flex-grow: 1;
+  
+}
+.transaction-details-container h5{
+  font-weight: bold;
+}
+.transaction-details-container p{
+  line-height: 8px;
+  color: #6F6F6F;
+  padding-left: 0;
+}
+.transaction-status-success p{
+  text-align: right;
+  background-color: #EFFFF4;
+  border-radius: 30.48px;
+  height: 40px;
+  width: 120px;
+  padding-top: 8px;
+  color: #00AB56;
+  margin-left: auto;
+  padding-right: 20px; /* Adjust as needed */
+}
+.transaction-status-success h5{
+  color: #333333;
+  text-align: right;
+  font-size: 17px;
+}
+/*refer CSS*/
+/* Add this CSS to your stylesheet or within a style tag in your HTML file */
+.refer{
+  width: 800px;
+}
+.refer-container{
+  padding-top: 20px;
+}
+.refer-container .refer {
+  display: flex;
+}
+
+.refer-container .refer-content {
+  flex-grow: 1;
+  padding-left: 20px; /* Adjust the spacing as needed */
+  margin-right: 0;
+}
+.refer-content h1{
+  color: #70B943;
+}
+.refer-content p{
+  color: #333333;
+}
+.refer-content h6{
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.refer-content span{
+  color: #70B943;
+}
+/*meal CSS*/
+#items{
+  padding: 4% 4%;
+  font-family: 'Poppins', sans-serif;
+}
+.search-container input::placeholder{
+padding-left: 37px;
+}
+.search-container input{
+  border-radius: 32.88px;
+  border: 1px solid #70B943;
+}
+.location-img{
+  display: flex;
+  align-items: center;
+}
+.location-img img{
+  width: 60px;
+  height: 60px;
+}
+.address{
+  flex-grow: 1;
+}
+.address h3{
+  font-weight: 600;
+}
+.select-type h3{
+  font-weight: 600;
+}
+.toggle-img img{
+  width: 60px;
+  height: 40px;
+  float: right;
+}
+.categories{
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories > div {
+  flex: 0 0 calc(15% - 10px); /* 20% width with 10px gap between divs */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 33.79px;
+  height: 50px; /* Set your desired height */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  margin-right: 10px; /* Add right margin for the gap */
+  font-weight:500;
+}
+
+.categories > div:last-child {
+  margin-right: 0; /* Remove right margin for the last div */
+}
+.rating-badge {
+  position: absolute;
+  top: 30px;
+  left: 21px;
+  background-color: white;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.rating-text {
+  margin: 0; /* Remove default margin */
+  color: #333; /* Set the text color */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+/*bill page css*/
+#bill-detail{
+  padding: 0% 4%;
+  margin-bottom: 2%;
+}
+.address-container{
+  border: 2px  #e3e3e3;
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 90%;
+  border-radius: 15.24px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-address{
+  flex-grow: 1;
+}
+.change-opt{
+  color: #70B943;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+  margin-left: 5px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.address-container p{
+  font-size: 13px;
+  color: #6F6F6F;
+}
+.address-container img{
+  height: 22px;
+}
+.track img{
+ width: 500px;
+}
+/*address CSS*/
+.address-opt{
+  width: 950px;
+  font-family: 'Poppins', sans-serif;
+}
+.address-card{
+  border: 1px solid black;
+  box-shadow: none;
+}
+.address-card a{
+  text-decoration: none;
+  color: #70B943;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.address-card img{
+  height: 22px;
+  padding-right: 8px;
+}
+.add-new-add{
+  height: 14rem;
+  position: relative;
+}
+.add-new-add .card-body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #70B943;
+}
